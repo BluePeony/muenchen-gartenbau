@@ -1,0 +1,80 @@
+<!-- HEADER -->
+	<div class="mini-header" id="mini-header-id">
+		<div id="mini-header-left">
+			<p><i class="fas fa-envelope"></i> schneider@gartenbau-muenchen.com</p>
+		</div>
+		<div id="mini-header-middle">
+			<nav>
+				<ul class="mini-header-nav" id="miniHeaderNav">
+					<li><%= link_to("HOME", root_url, class:"nav-link nav-link-active") %></li>
+					<li><%= link_to("LEISTUNGEN", leistungen_path, class:"nav-link") %></li>
+					<li><%= link_to("REFERENZEN", referenzen_path, class:"nav-link") %></li>
+					<li><%= link_to("PARTNER", partner_path, class:"nav-link") %></li>
+					<li><%= link_to("ÜBER UNS", '/ueber-uns', class:"nav-link") %></li>
+					<li><%= link_to("GARTENMAGAZIN", gartenmagazin_path, class:"nav-link") %></li>
+					<li><%= link_to("KONTAKT", kontakt_path, class:"nav-link") %></li>
+				</ul>
+			</nav>
+		</div>
+		<div id="mini-header-right">
+			<p><i class="fas fa-phone-alt"></i> (0171) 825 79 08</p>
+		</div>
+	</div>
+	<header class="header-divs-and-nav">
+		<div class="header-divs-all">
+			<div class="header-div" id="location-full">
+				<div class="header-contact-data" id="location">
+					<div class="icon" id="location-icon">
+						<i class="fas fa-map-marker-alt"></i>
+					</div>
+					<div id="location-address">
+						Seehauser Strasse 19
+						<br>
+						81379 München
+					</div>
+				</div>
+			</div>
+
+			<div class="header-div mobile-menu-bars">
+				<p><i class="fas fa-bars"></i></p>
+			</div>
+
+			<div class="header-div" id="logo">
+				<%= link_to( image_tag('logo_schneider.png', title:"Garten- und Landschaftsbau Schneider", id: "logo-image"), root_path, id:"logo-link") %>
+			</div>
+
+			<div class="header-div" id="phone-mail">
+				<div class="header-contact-data" id="phone">
+					<div class="icon" id="phone-icon">
+						<i class="fas fa-phone-alt"></i>
+					</div>
+					<div id="phone-number">
+						(089) 714 52 15
+						<br>
+						(0171) 825 79 08
+					</div>
+				</div>
+
+				<div class="header-contact-data" id="mail">
+					<div class="icon" id="mail-icon">
+						<i class="fas fa-envelope"></i>
+					</div>
+					<div id="mail-address">
+						schneider@gartenbau-muenchen.com
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<nav>
+			<ul class="header-nav" id="headerNav">
+				<li><%= link_to("HOME", root_url, class:"nav-link nav-link-active") %></li>
+				<li><%= link_to("LEISTUNGEN", leistungen_path, class:"nav-link") %></li>
+				<li><%= link_to("REFERENZEN", referenzen_path, class:"nav-link") %></li>
+				<li><%= link_to("PARTNER", partner_path, class:"nav-link") %></li>
+				<li><%= link_to("ÜBER UNS", '/ueber-uns', class:"nav-link") %></li>
+				<li><%= link_to("GARTENMAGAZIN", gartenmagazin_path, class:"nav-link") %></li>
+				<li><%= link_to("KONTAKT", kontakt_path, class:"nav-link") %></li>
+			</ul>
+		</nav>
+	</header>

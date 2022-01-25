@@ -1,0 +1,1154 @@
+body{
+	width: 80%;
+	margin: auto;
+}
+
+/*------------Header Styles-------------*/
+/*Mini-Header*/
+.mini-header{
+	display: none;
+	justify-content: space-around;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	color: #8B6969;
+	align-items: center;
+	font-size: 14px;
+	background-image: image-url('leaves_sprinkle_opacity.jpg');
+	width: 100%;
+	z-index: 100;
+
+}
+
+.mini-header.mini-header-vis {
+	display: flex;
+}
+
+.mini-header i {
+	color: #ff8547;
+}
+
+/*Main-Header*/
+.header-divs-and-nav {
+	color: #8B6969;	
+	font-family: 'Lora', serif;	
+	font-size:  16px;
+}
+.header-divs-all{
+	display: flex;
+	align-items: center;
+	margin-bottom: 50px;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.header-contact-data {
+	display: flex;
+	align-items: center;
+}
+
+#phone {
+	margin-bottom: 15px;
+}
+
+.icon {
+	margin-right: 10px;
+	color: #a5cb38;
+	font-size: 20px;
+}
+
+.mobile-menu-bars {
+	display: none;
+}
+
+#logo {
+	flex-basis: 35%;
+}
+
+#schneider-p {
+			color: #147749;
+			font-size: 47px;
+			font-family: 'Merriweather Sans', sans-serif;
+			margin-top: 0px;
+			margin-bottom: 0px;
+}
+#schneider-s{
+			font-family: 'Philosopher', sans-serif;
+			font-size: 110px;
+			font-weight: normal;
+}
+
+#schneider-rest{
+			letter-spacing: 3.5px;
+			font-weight: bold;
+}
+
+#gartenbau-p {
+			color: #73cc29;
+			font-family: 'Philosopher', sans-serif;
+			font-size: 21px;
+			font-weight: 600;
+}
+
+.gartenbau-div{
+			position: absolute;
+			top: 6px;
+			left: 58px;
+}
+
+.schneider-logo-div{
+	position: absolute;
+	top: 20px;
+	left: 340px;
+}
+
+#schneider-logo-img{
+	width: 75px;
+}
+
+#logo-link:hover{
+	text-decoration: none;
+	border: none;
+}
+
+#logo-image{
+	width: 100%;
+}
+
+.header-nav{
+	color: #8B6969;
+	font-size: 17px;
+	font-weight: normal;
+	list-style: none;
+	text-align: center;
+	letter-spacing: 0.4px;
+	padding:15px 0px;
+	position: relative;
+}
+
+.header-nav::after{
+	content: "";
+	background-image: image-url('leaves_sprinkle_opacity.jpg');
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.mini-header-nav > li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.header-nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+.mini-header-nav > li {
+	list-style: none;
+}
+
+.nav-link{
+	color: #8B6969;
+	text-decoration: none;
+}
+.nav-link:hover{
+	border-bottom: 1px solid #ff8547;
+}
+
+.nav-link.nav-link-active{
+	border-bottom: 1px solid #ff8547;
+	color: #ff8547;
+}
+
+/*---------------Footer Styles--------------*/
+footer {
+	/*background: #013220;
+	background: #2f3d30;*/
+	background: #3a4b3b;
+	color: #fafafa;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	/*width: 80%;
+	margin-left: 10%;*/
+	border-radius: 3px;
+	height: auto;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.footer-all-divs{
+	display: flex;
+	align-items: flex-start;
+	padding-top: 50px;
+	justify-content: space-around;
+}
+
+/*
+#footer-contact-data{
+	padding-left: 30px;
+}
+
+#footer-google-maps{
+	margin-left: 70px;
+}*/
+
+#footer-google-maps {
+	position: relative;
+}
+
+.open-street-link {
+	position: absolute;
+	top: 230px;
+	left: 10px;
+	color: #0078A8;
+}
+#footer-datenschutz-impressum{
+	margin-top: 40px;
+}
+
+#datenschutz-link{
+	margin-right: 30px;
+}
+
+/*---------------Single Page Styles--------------*/
+.in-between{
+	background-image: url("images/leaves_sprinkle.jpg");
+	height: 70px;
+	width: 84%;
+	margin-left: 11%;
+	border-radius: 3px;
+}
+.single-page{
+	/*font-family: 'Alegreya Sans', sans-serif;*/
+	color: #8B6969;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	/*margin-left: 10%;*/
+	margin-top: 30px;
+	/*width: 80%;*/
+}
+
+h2, h4{
+	font-family: 'Lora', serif;
+}
+
+.main-content {
+	margin-top: 40px;
+}
+a{
+	color: #a5cb38;
+	text-decoration: none;
+}
+
+a:hover{
+	color:  #ff8547;
+	border-bottom: 1px solid #ff8547;
+}
+
+/*Index-Seite*/
+.hero-image-all {
+	height: 430px;
+	overflow: hidden;
+	position: relative;
+}
+.hero-image-img img{
+	width: 100%;
+	border-radius: 3px;
+}
+
+.hero-image-text{
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+.hero-image-text p {
+	color: white;
+	font-family: 'Lora', serif;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.index-our-offer{
+	margin-top: 50px;
+}
+
+.index-offer-title{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.index-our-offer h2{
+	border-bottom: 3px solid #ff8547;
+}
+
+.index-offer-all{
+	column-count: 3;
+	column-gap: 30px;
+	margin-top: 30px;
+}
+
+.index-offer-div{
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	border-radius: 3px;
+	margin-bottom: 30px;
+}
+
+.index-offer-div h4 {
+	text-align: center;
+	color: #a5cb38;
+	font-size: 17px;
+}
+
+.index-offer-div p{
+	width: 90%;
+	margin-left: 5%;
+}
+
+#gartenmagazin{
+	width: 100%;
+}
+
+#gartenmagazin iframe{
+	height: 1500px;
+}
+
+/*Kontakt-Seite*/
+.kontakt-all {
+	display: flex;
+}
+
+#kontakt-skizze{
+	margin-left: 300px;
+}
+
+#kontakt-skizze img{
+	width: 320px;
+}
+
+/*Partner-Seite*/
+
+#partner{
+	position: relative;
+}
+#partner > h2 {
+	display: inline;
+}
+
+#gardena-link{
+	position: absolute;
+	top: 8px;
+	text-decoration: none;
+}
+
+#gardena-logo{
+	width: 120px;
+	margin-left: 10px;
+}
+
+#partner-image-div{
+	border-radius: 3px;
+	height: 75vh;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+#partner-image{
+	width: 100%;
+}
+
+#partner-text{
+	background: white;
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 6%;
+	top: 25%;
+	line-height: 2;
+	width: 45%;
+}
+
+#partner-text p {
+	padding: 25px 45px;
+}
+/*Leistungen*/
+.leistungen-wrapper {
+	column-count: 3;
+	column-gap: 50px;
+}
+
+.leistungen-single-div{
+	position: relative;
+	height: 250px;
+	margin-bottom: 60px;
+}
+
+.leistungen-single-div:hover{
+	cursor: pointer;
+}
+
+.leistungen-image{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.leistungen-headline{
+	background: white;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin-left: 5%;
+	position: absolute;
+	top: 60%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	width: 90%;
+	border-radius: 5px;
+}
+
+.leistungen-overlay{
+	position: absolute;
+	bottom: 10%;
+	left: 5%;
+	background: white;
+	overflow: hidden;
+	height: 80%;
+	width: 90%;
+	transform: scale(0);
+	transition: .3s ease;
+	border-radius: 5px;
+}
+
+.leistungen-single-div:hover .leistungen-overlay{
+	transform: scale(1);
+}
+
+.leistungen-overlay-text{
+	width: 80%;
+	/*margin-left: 10%;*/
+	text-align: center;
+	line-height: 1.7;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*
+#overlay-gestaltung, #overlay-pflasterarbeiten{
+	height: 70%;
+	margin-top: 15%;
+}
+
+#overlay-teichbau{
+	height: 66%;
+	margin-top: 17%;
+}
+
+#overlay-dachbegruenung, #overlay-holzarbeiten, #overlay-baumschnitt, #overlay-bewaesserung, #overlay-zaunarbeiten{
+	height: 56%;
+	margin-top: 22%;
+}
+
+#overlay-langzeitpflege{
+	height: 85%;
+	margin-top: 7.5%;
+}*/
+
+/*Referenzen*/
+
+.referenzen-wrap {
+	column-count: 3;
+	column-gap: 25px;
+}
+.referenzen-wrap img{
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border: 5px solid white;
+	transition: 0.5s;
+}
+
+.referenzen-wrap img:hover{
+	/*border: 5px solid #ff8547;*/
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*Cookie Consent*/
+
+.cc-window {
+	font-family: 'Roboto', sans-serif !important;
+}
+.cc-floating .cc-message {
+	line-height: 1.7;
+}
+.cc-btn:hover, .cc-btn:focus{
+	background: #ff8547 !important;
+}
+
+.cc-link{
+	text-decoration: none !important;
+	color: #a5cb38 !important;
+}
+
+.cc-link:hover, cc-link:focus{
+	color: #ff8547 !important;
+}
+
+/*------------------Referenzen Styles------------------*/
+.referenzen-body {
+	background: #3a4b3b;
+}
+.referenzen-main{
+	width: 95%;
+	margin: auto;
+	position: relative;
+}
+.referenzen-icons:hover{
+	border-bottom: 0px;
+}
+#referenzen-close {
+	text-align: right;
+	font-size: 30px;
+}
+
+.referenzen-overlay{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	height: 400px;
+	margin-top: 100px;
+}
+
+.referenzen-arrow {
+	font-size: 35px;
+	position:absolute;
+}
+
+.referenzen-arrow-link:hover{
+	border-bottom: 0px;
+}
+
+#referenzen-left-arrow{
+	left: 0;
+}
+
+#referenzen-right-arrow{
+	left: 97%;
+}
+
+.referenzen-image img{
+	border: 7px solid white;
+	border-radius: 3px;
+}
+
+#referenzen-text{
+	color: #a5cb38;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-top: 25px;
+	font-size: 17px;
+}
+
+/*--------------Mobile Styles-------------*/
+/*Smartphone Hochformat*/
+
+@media (max-width: 600px) and (orientation: portrait){
+	body {
+		width: 92%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	/*Header*/
+	.header-divs-and-nav{
+		position: relative;
+	}
+	.mini-header.mini-header-vis{
+		display: none;
+	}
+
+	.header-divs-all {
+		position: relative;
+	}
+
+	.header-contact-data{
+		display: none;
+	}
+
+	#phone-mail {
+		display: none;
+	}
+
+	.mobile-menu-bars {
+		display: block;
+		position: absolute;
+	}
+
+	.mobile-menu-bars p{
+		color:#73cc29;
+		font-size: 27px;
+	}
+
+	.mobile-menu-bars p:hover{
+		cursor: pointer;
+	}
+
+	#logo-image{
+		width: 75vw;
+	}
+
+	/*Navigation*/
+
+	.header-nav {
+		display: none;
+	}
+
+	.header-nav.mobile-menu-vis{
+		display: block;
+		position: absolute;
+		top: 80%;
+		z-index: 1000;
+	}
+
+	.header-nav > li {
+		display: block;
+		margin-bottom: 15px;
+		text-align: left;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+
+
+	/*Homepage*/
+	.hero-image-all {
+		height: auto;
+	}
+
+	.hero-image-text p {
+		font-size: 22px;
+	}
+
+	.index-our-offer {
+		margin-top: 15px;
+	}
+
+	.index-our-offer h2 {
+		font-size: 22px;
+	}
+
+	.index-offer-all {
+		column-count: 1;
+	}
+
+	/*Leistungen*/
+	.leistungen-wrapper {
+		column-count: 1;
+	}
+
+	.leistungen-single-div {
+		margin-bottom: 45px;
+	}
+
+	#overlay-langzeitpflege {
+		font-size: 15px;
+	}
+
+	/*Referenzen*/
+	.referenzen-body {
+		width: 97vw;
+	}
+
+	.referenzen-wrap {
+		column-count: 1;
+	}
+
+	.referenzen-overlay {
+		margin-top: 0px;
+		justify-content: space-between;
+		height: 70vw;
+	}
+
+	.referenzen-arrow {
+		position: static;
+	}
+
+	.referenzen-image img {
+		width: 70vw;
+	}
+
+	.referenzen-arrow {
+		font-size: 25px;
+	}
+
+	#referenzen-close{
+		font-size: 25px;
+	}
+
+	#referenzen-text {
+		margin-top: 0px;
+		font-size: 16px;
+	}
+
+	/*Partner*/
+
+	#partner-image-div {
+		display: none;
+	}
+
+	#partner-text {
+		position: static;
+		font-size: 14px;
+		line-height: 1.8;
+		margin-left: 0px;
+		margin-top: 15px;
+		width: 80vw;
+		border: 20px solid transparent;
+		border-image: url("../images/partner_bewaesserung.jpg") 50 stretch;
+
+	}
+
+	#partner-text p {
+		padding: 0px 25px;
+		text-align: justify;
+		border-radius: 10px;
+	}
+
+	/*Gartenmagazin*/
+
+	#gartenmagazin iframe {
+		height: 910px;
+	}
+
+	/*Kontakt*/
+	.kontakt-all{
+		flex-direction: column;
+	}
+
+	#kontakt-skizze{
+		margin: 20px 0px;
+	}
+
+	/*Footer*/
+	.footer-all {
+		margin-top: 50px;
+		height: auto;
+	}
+	.footer-all-divs {
+		flex-direction: column;
+		padding-top: 15px;
+	}
+
+	#footer-contact-data {
+		margin-left: 15px;
+	}
+
+	#footer-google-maps{
+		margin: auto;
+	}
+
+	#footer-google-maps iframe{
+		width: 85vw;
+	}
+
+	.open-street-link{
+		top: 215px;
+	}
+}
+
+/*Smartphone Querformat*/
+@media (max-width: 896px) and (orientation: landscape) {
+	body {
+		width: 93%;
+		margin: auto;
+	}
+
+	/*Header*/
+	.mini-header.mini-header-vis{
+		display: none;
+	}
+
+	#mail {
+		display: none;
+	}
+
+	.header-contact-data {
+		font-size: 14px;
+	}
+
+	.icon {
+		font-size: 18px;
+	}
+
+	#logo {
+		flex-basis: 40%;
+	}
+
+	.header-divs-all {
+		margin-bottom: 30px;
+	}
+
+	/*Haupt-Navigation*/
+	.header-nav {
+		font-size: 13px;
+	}
+
+	/*Footer*/
+	.footer-all {
+		height: auto;
+	}
+
+	.footer-all-divs {
+		padding-top: 30px;
+		padding-left:10px;
+		padding-right: 10px;
+	}
+
+	#footer-google-maps iframe {
+		width: 100%;
+	}
+
+	.open-street-link {
+		top: 217px;
+	}
+
+	/*All pages*/
+	.main-content {
+		margin-top: 20px;
+	}
+
+	/*Homepage*/
+	.hero-image-all {
+		height: 292px;
+	}
+
+	.hero-image-text p {
+		font-size: 29px;
+	}
+
+	.index-offer-all {
+		column-count: 2;
+	}
+
+	/*Leistungen*/
+	.leistungen-wrapper {
+		column-count: 2;
+	}
+
+	.leistungen-headline {
+		font-size: 16px;
+	}
+
+	.leistungen-overlay {
+		font-size: 15px;
+	}
+
+	#overlay-langzeitpflege {
+		font-size: 14px;
+		line-height: 1.6;
+	}
+
+	/*#overlay-dachbegruenung, #overlay-bewaesserung {
+		margin-top: 30%;
+	}
+
+	#overlay-teichbau {
+		margin-top: 19%;
+	}*/
+
+	/*Referenzen*/
+	.referenzen-wrap {
+		column-count: 2;
+	}
+
+	.referenzen-overlay {
+		margin-top: 0px;
+		justify-content: space-between;
+	}
+
+	.referenzen-arrow {
+		position: static;
+	}
+
+	.referenzen-image img {
+		width: 70vw;
+	}
+
+	.referenzen-arrow {
+		font-size: 30px;
+	}
+
+	#referenzen-close{
+		font-size: 25px;
+	}
+
+	#referenzen-text {
+		margin-top: 20px;
+		font-size: 16px;
+	}
+
+	/*Partner*/
+	#partner-image-div {
+		display: none;
+	}
+
+	#partner-text {
+		position: static;
+		font-size: 15px;
+		line-height: 1.8;
+		margin-left: 0px;
+		margin-top: 15px;
+		width: 80vw;
+		border: 25px solid transparent;
+		border-image: url("../images/partner_bewaesserung.jpg") 25 stretch;
+
+	}
+
+	#partner-text p {
+		padding: 0px 25px;
+		text-align: justify;
+		border-radius: 10px;
+	}
+
+	/*Kontakt*/
+
+	#kontakt-daten {
+		flex-basis: 60%;
+	}
+
+	#kontakt-skizze{
+		margin-left: 0px;
+	}
+
+	#kontakt-skizze img {
+		width: 250px;
+	}
+}
+
+
+/*Tablet Hochformat*/
+@media (min-width: 601px) and (max-width: 835px) and (orientation: portrait){
+	body {
+		width: 90%;
+		margin: auto;
+	}
+
+	.mini-header.mini-header-vis{
+		display: none;
+	}
+
+	/*Header*/
+	.icon {
+		font-size: 18px;
+	}
+	#location-address, #phone-number {
+		font-size: 14px;
+	}
+	#mail {
+		display: none;
+	}
+
+	/*Navigation Menu*/
+	.header-nav {
+		font-size: 13px;
+	}
+
+	/*Homepage*/
+	.hero-image-all {
+		height: auto;
+	}
+
+	.hero-image-text p {
+		font-size: 28px;
+	}
+
+	.index-our-offer {
+		margin-top: 25px;
+	}
+
+	.index-our-offer h2 {
+		font-size: 22px;
+	}
+
+	.index-offer-all {
+		column-count: 2;
+	}
+
+	/*Leistungen*/
+	.leistungen-wrapper {
+		column-count: 2;
+	}
+
+	.leistungen-single-div {
+		margin-bottom: 45px;
+	}
+
+	#overlay-gestaltung {
+		font-size: 15px;
+	}
+
+	/*#overlay-dachbegruenung{
+		margin-top: 28%;
+	}
+
+	#overlay-langzeitpflege {
+		font-size: 15px;
+		margin-top: 3%;
+	}
+
+	#overlay-bewaesserung {
+		margin-top: 25%;
+	}*/
+
+	/*Referenzen*/
+
+	.referenzen-wrap {
+		column-count: 2;
+	}
+
+	/*Partner*/
+
+	#partner {
+		height: 50vh;
+	}
+
+	#partner-text {
+		width: 60%;
+		top: 16%;
+	}
+
+	#partner-text p {
+		font-size: 15px;
+		padding: 5px 25px;
+	}
+
+	/*Kontakt*/
+
+	#kontakt-daten {
+		flex-basis: 60%;
+	}
+
+	#kontakt-skizze{
+		margin-left: 0px;
+	}
+
+	/*Footer*/
+
+	.footer-all {
+		height: auto;
+	}
+
+	.footer-all-divs {
+		padding-top: 30px;
+	}
+
+	#footer-google-maps iframe {
+		width: 100%;
+	}
+
+	.open-street-link {
+		top: 217px;
+	}
+}
+
+/*Tablet Querformat*/
+@media (min-width: 897px) and (max-width: 1280px) and (orientation: landscape) {
+	body {
+		width: 90%;
+		margin: auto;
+	}
+
+	/*Header*/
+	.mini-header.mini-header-vis{
+		display: none;
+	}
+
+	.header-divs-and-nav {
+		font-size: 15px;
+	}
+
+	.hero-image-all {
+		height: auto;
+	}
+
+	.icon {
+		font-size: 18px;
+	}
+
+	/*Footer*/
+	.footer-all {
+		height: auto;
+	}
+
+	.footer-all-divs {
+		padding-top: 30px;
+	}
+
+	#footer-google-maps {
+		flex-basis: 55%;
+	}
+
+	#footer-google-maps iframe {
+		width: 100%;
+	}
+
+	.open-street-link {
+		top: 217px;
+	}
+
+	/*Homepage*/
+	.hero-image-text p {
+		font-size: 35px;
+	}
+
+	.index-offer-all {
+		column-count: 2;
+	}
+
+	/*Leistungen*/
+	.leistungen-wrapper {
+		column-count: 2;
+	}
+
+	/*Referenzen*/
+
+
+	.referenzen-image img {
+		width: 65vw;
+	}
+
+	#referenzen-text {
+		margin-top: 100px;
+	}
+
+	/*Partner*/
+	#partner-text {
+		top: 23%;
+		width: 50%;
+	}
+
+	#partner-text p {
+		padding: 5px 20px;
+	}
+
+	/*Kontakt*/
+	#kontakt-daten {
+		flex-basis: 60%;
+	}
+	#kontakt-skizze {
+		margin-left: 0px;
+	}
+}
