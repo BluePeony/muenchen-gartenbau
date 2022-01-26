@@ -1,10 +1,51 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
- <div id="pop">
-   TEST
- </div>
- <script>
-    $(document).ready(function() { 
-        $('#pop').hide(); 
-      });
- </script>
+<div class="single-page" id="homepage">
+	<div class="hero-image-all">
+		<div class="hero-image-img">
+			<%= image_tag('hero_image_new_test.jpg') %>
+		</div>
+		<div class="hero-image-text">
+			<p>
+				Ihr Spezialist für Garten- und Landschaftsbau<br> in und um München
+			</p>
+		</div>
+	</div>
+
+	<div class="index-our-offer">
+		<h2 class="index-offer-title">Das bieten wir Ihnen</h2>
+		<div class="index-offer-all">
+			<div class="index-offer-div">
+				<h4><i class="fas fa-check"></i> Erfahrung und Kompetenz</h4>
+				<p>Seit 1987 sind wir <%= link_to "Ihr zuverlässiger Partner", ueber_uns_path %> in Ihrem Privatgarten oder gewerblichen Anlagen.</p>
+			</div>
+
+			<div class="index-offer-div">
+				<h4><i class="fas fa-check"></i> Monatliches Gartenmagazin</h4>
+				<p>Unser <%= link_to "Gartenmagazin", gartenmagazin_path %> bietet Ihnen immer aktuelle Tipps rund um das Thema Garten.</p>
+			</div>
+
+			<div class="index-offer-div">
+				<h4><i class="fas fa-check"></i> Umfangreiches Leistungsspektrum</h4>
+				<p>Planung, Ausführung, Umsetzung: wir kümmern uns um alle <%= link_to "Arbeiten", leistungen_path %> zu fairen Preisen.</p>
+			</div>
+
+			<div class="index-offer-div">
+				<h4><i class="fas fa-check"></i> Kostenlose Erstberatung</h4>
+				<p>Ob <%= link_to "telefonisch", kontakt_path %> oder vor Ort: wir beraten Sie gern unverbindlich zu Ihren Vorhaben im Garten.</p>
+			</div>
+
+			<div class="index-offer-div">
+				<h4><i class="fas fa-check"></i> Freundliches und professionelles Team</h4>
+				<p>Zu unseren Standards zählen höchste Qualität und Zufriedenheit unserer <%= link_to "Kunden", referenzen_path %>.</p>
+			</div>
+
+			
+
+			<div class="index-offer-div">
+				<h4><i class="fas fa-check"></i> Schnelle Terminvereinbarung</h4>
+				<p><%= link_to "Kontaktieren", kontakt_path %> Sie uns, um einen für Sie passenden Termin zu vereinbaren. </p>
+			</div>
+
+		</div>
+		
+	</div>
+</div>
