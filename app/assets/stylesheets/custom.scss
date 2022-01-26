@@ -550,16 +550,22 @@ a:hover{
 	left: 97%;
 }
 
+.referenzen-image {
+	width: 55%;
+}
+
 .referenzen-image img{
-	border: 7px solid white;
-	border-radius: 3px;
+	//border: 7px solid white;
+	border-radius: 5px;
+	width: 100%;
 }
 
 #referenzen-text{
-	color: #a5cb38;
+	//color: #a5cb38;
+	color: #8B6969;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
-	margin-top: 25px;
+	margin-top: 90px;
 	font-size: 17px;
 }
 
