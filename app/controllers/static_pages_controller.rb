@@ -6,6 +6,11 @@ class StaticPagesController < ApplicationController
   end
 
   def referenzen
+    if params[:ref_page]
+      render 'ref'
+    else
+      render 'referenzen'
+    end
   end
 
   def partner

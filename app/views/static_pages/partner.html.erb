@@ -1,12 +1,14 @@
-<div class="single-page" id="partner">
-	<h2>Unser Partner: </h2><%= link_to(image_tag('gardena-logo.png', id:'gardena-logo'), 'https://www.gardena.com/de/', id:'gardena-link', target:'_blank') %>
-	<div id="partner-image-div">
-		<%= image_tag 'partner_bewaesserung.jpg', id:'partner-image' %>
+<main class="main-content">
+	<div class="single-page" id="partner">
+		<h2>Unser Partner: </h2><%= link_to(image_tag('gardena-logo.png', id:'gardena-logo'), 'https://www.gardena.com/de/', id:'gardena-link', target:'_blank') %>
+		<div id="partner-image-div">
+			<%= image_tag 'partner_bewaesserung.jpg', id:'partner-image' %>
+		</div>
+		
+		<div id="partner-text">
+			<p>Als Fachbetrieb des Garten- und Landschaftsbaues bieten wir Ihnen in Zusammenarbeit mir Gardena den Planungs- und Verlegeservice für Gartenbewässerung.<br>
+		    Hierzu setzen Sie sich bitte mit uns in Verbindung, damit wir Ihnen ein für Ihr Projekt passendes Angebot erstellen können.<br><br>
+				Informationen zu Gartenbewässerung und Beleuchtung erhalten Sie über die <%= link_to "Gardena-Homepage", 'http://www.gardena.com', target:'_blank' %>. Dort finden Sie auch den gesamten Artikelstamm von Gardena.</p>
+		</div>
 	</div>
-	
-	<div id="partner-text">
-		<p>Als Fachbetrieb des Garten- und Landschaftsbaues bieten wir Ihnen in Zusammenarbeit mir Gardena den Planungs- und Verlegeservice für Gartenbewässerung.<br>
-	    Hierzu setzen Sie sich bitte mit uns in Verbindung, damit wir Ihnen ein für Ihr Projekt passendes Angebot erstellen können.<br><br>
-			Informationen zu Gartenbewässerung und Beleuchtung erhalten Sie über die <%= link_to "Gardena-Homepage", 'http://www.gardena.com', target:'_blank' %>. Dort finden Sie auch den gesamten Artikelstamm von Gardena.</p>
-	</div>
-</div>
+</main>
