@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'active_link_to'
-#gem "font-awesome-rails"
+gem 'font_awesome5_rails'
 #gem 'will_paginate',  '3.3.0'
 gem 'secure_headers'
 gem 'active_link_to'
