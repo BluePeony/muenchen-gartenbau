@@ -6,13 +6,13 @@
 		<div id="mini-header-middle">
 			<nav>
 				<ul class="mini-header-nav" id="miniHeaderNav">
-					<li><%= link_to("HOME", root_url, class:"nav-link", active: :exclusive) %></li>
-					<li><%= link_to("LEISTUNGEN", leistungen_path, class:"nav-link", active: :exclusive) %></li>
-					<li><%= link_to("REFERENZEN", referenzen_path, class:"nav-link", active: :exclusive) %></li>
-					<li><%= link_to("PARTNER", partner_path, class:"nav-link", active: :exclusive) %></li>
-					<li><%= link_to("ÜBER UNS", '/ueber-uns', class:"nav-link", active: :exclusive) %></li>
-					<li><%= link_to("GARTENMAGAZIN", gartenmagazin_path, class:"nav-link", active: :exclusive) %></li>
-					<li><%= link_to("KONTAKT", kontakt_path, class:"nav-link", active: :exclusive) %></li>
+					<li><%= active_link_to("HOME", root_url, class:"nav-link", active: :exclusive) %></li>
+					<li><%= active_link_to("LEISTUNGEN", leistungen_path, class:"nav-link", active: :exclusive) %></li>
+					<li><%= active_link_to("REFERENZEN", referenzen_path, class:"nav-link", active: :exclusive) %></li>
+					<li><%= active_link_to("PARTNER", partner_path, class:"nav-link", active: :exclusive) %></li>
+					<li><%= active_link_to("ÜBER UNS", '/ueber-uns', class:"nav-link", active: :exclusive) %></li>
+					<li><%= active_link_to("GARTENMAGAZIN", gartenmagazin_path, class:"nav-link", active: :exclusive) %></li>
+					<li><%= active_link_to("KONTAKT", kontakt_path, class:"nav-link", active: :exclusive) %></li>
 				</ul>
 			</nav>
 		</div>
