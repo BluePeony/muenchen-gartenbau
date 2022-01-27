@@ -3,6 +3,14 @@ body{
 	margin: auto;
 }
 
+$text_color: #8B6969;
+$hover_color: #ff8547;
+$link_color: #a5cb38;
+$title_green_color: #73cc29;
+$title_dark_green_color: #147749;
+$footer_background_color: #3a4b3b;
+$footer_text_color: #fafafa;
+
 /*------------Header Styles-------------*/
 /*Mini-Header*/
 .mini-header{
@@ -12,7 +20,7 @@ body{
 	top: 0;
 	left: 0;
 	right: 0;
-	color: #8B6969;
+	color: $text_color;
 	align-items: center;
 	font-size: 14px;
 	background-image: image-url('leaves_sprinkle_opacity.jpg');
@@ -26,13 +34,13 @@ body{
 }
 
 .mini-header i {
-	color: #ff8547;
+	color: $hover_color;
 }
 
 /*Main-Header*/
 .header-divs-and-nav {
-	color: #8B6969;	
-	font-family: 'Lora', serif;	
+	color: $text_color;
+	font-family: 'Lora', serif;
 	font-size:  16px;
 }
 .header-divs-all{
@@ -54,7 +62,7 @@ body{
 
 .icon {
 	margin-right: 10px;
-	color: #a5cb38;
+	color: $link_color;
 	font-size: 20px;
 }
 
@@ -67,7 +75,7 @@ body{
 }
 
 #schneider-p {
-			color: #147749;
+			color: $title_dark_green_color;
 			font-size: 47px;
 			font-family: 'Merriweather Sans', sans-serif;
 			margin-top: 0px;
@@ -85,7 +93,7 @@ body{
 }
 
 #gartenbau-p {
-			color: #73cc29;
+			color: $title_green_color;
 			font-family: 'Philosopher', sans-serif;
 			font-size: 21px;
 			font-weight: 600;
@@ -117,7 +125,7 @@ body{
 }
 
 .header-nav{
-	color: #8B6969;
+	color: $text_color;
 	font-size: 17px;
 	font-weight: normal;
 	list-style: none;
@@ -153,24 +161,24 @@ body{
 }
 
 .nav-link{
-	color: #8B6969;
+	color: $text_color;
 	text-decoration: none;
 }
 .nav-link:hover{
-	border-bottom: 1px solid #ff8547;
+	border-bottom: 1px solid $hover_color;
 }
 
-.nav-link.nav-link-active{
-	border-bottom: 1px solid #ff8547;
-	color: #ff8547;
+.nav-link.active{
+	border-bottom: 1px solid $hover_color;
+	color: $hover_color;
 }
 
 /*---------------Footer Styles--------------*/
 footer {
 	/*background: #013220;
 	background: #2f3d30;*/
-	background: #3a4b3b;
-	color: #fafafa;
+	background: $footer_background_color;
+	color: $footer_text_color;
 	font-family: "Roboto", sans-serif;
 	font-size: 15px;
 	line-height: 1.5;
@@ -225,7 +233,7 @@ footer {
 }
 .single-page{
 	/*font-family: 'Alegreya Sans', sans-serif;*/
-	color: #8B6969;
+	color: $text_color;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	line-height: 1.6;
@@ -242,13 +250,13 @@ h2, h4{
 	margin-top: 40px;
 }
 a{
-	color: #a5cb38;
+	color: $link_color;
 	text-decoration: none;
 }
 
 a:hover{
-	color:  #ff8547;
-	border-bottom: 1px solid #ff8547;
+	color:  $hover_color;
+	border-bottom: 1px solid $hover_color;
 }
 
 /*Index-Seite*/
@@ -288,7 +296,7 @@ a:hover{
 }
 
 .index-our-offer h2{
-	border-bottom: 3px solid #ff8547;
+	border-bottom: 3px solid $hover_color;
 }
 
 .index-offer-all{
@@ -305,7 +313,7 @@ a:hover{
 
 .index-offer-div h4 {
 	text-align: center;
-	color: #a5cb38;
+	color: $link_color;
 	font-size: 17px;
 }
 
@@ -481,7 +489,7 @@ a:hover{
 }
 
 .referenzen-wrap img:hover{
-	/*border: 5px solid #ff8547;*/
+	/*border: 5px solid $hover_color;*/
 	cursor: pointer;
 	transform: scale(1.05);
 }
@@ -495,21 +503,21 @@ a:hover{
 	line-height: 1.7;
 }
 .cc-btn:hover, .cc-btn:focus{
-	background: #ff8547 !important;
+	background: $hover_color !important;
 }
 
 .cc-link{
 	text-decoration: none !important;
-	color: #a5cb38 !important;
+	color: $link_color !important;
 }
 
 .cc-link:hover, cc-link:focus{
-	color: #ff8547 !important;
+	color: $hover_color !important;
 }
 
 /*------------------Referenzen Styles------------------*/
 .referenzen-body {
-	background: #3a4b3b;
+	background: $footer_background_color;
 }
 .referenzen-main{
 	width: 95%;
@@ -561,8 +569,8 @@ a:hover{
 }
 
 #referenzen-text{
-	//color: #a5cb38;
-	color: #8B6969;
+	//color: $link_color;
+	color: $text_color;
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	margin-top: 90px;
@@ -605,7 +613,7 @@ a:hover{
 	}
 
 	.mobile-menu-bars p{
-		color:#73cc29;
+		color:$title_green_color;
 		font-size: 27px;
 	}
 
@@ -690,6 +698,10 @@ a:hover{
 
 	.referenzen-arrow {
 		position: static;
+	}
+
+	.referenzen-image {
+		width: auto;
 	}
 
 	.referenzen-image img {
@@ -889,6 +901,9 @@ a:hover{
 		position: static;
 	}
 
+	.referenzen-image {
+		width: auto;
+	}
 	.referenzen-image img {
 		width: 70vw;
 	}
@@ -1131,6 +1146,10 @@ a:hover{
 
 	/*Referenzen*/
 
+
+	.referenzen-image {
+		width: auto;
+	}
 
 	.referenzen-image img {
 		width: 65vw;

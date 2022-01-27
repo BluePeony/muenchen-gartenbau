@@ -11,7 +11,7 @@ SecureHeaders::Configuration.default do |config|
 		default_src: %w('self'),
 		frame_src: %w('self' https://azana.de https://www.openstreetmap.org/),
 		font_src: %w('self' https://fonts.googleapis.com https://fonts.gstatic.com),
-		script_src: %w('self' 'unsafe-inline'),
+		script_src: %w('self' https://cdn.jsdelivr.net 'unsafe-inline'),
 		style_src_elem: %w('self' https://fonts.googleapis.com https://cdn.jsdelivr.net/ 'unsafe-inline' ),
 		style_src: %w('self' https://fonts.googleapis.com 'unsafe-inline' ),
 		img_src: %w('self' data:)

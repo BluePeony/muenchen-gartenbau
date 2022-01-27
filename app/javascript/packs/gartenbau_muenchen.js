@@ -1,3 +1,4 @@
+
 $(document).ready (function(){
 	//place the phone inforamtion and the mail information strictly below each other
 	var mail_icon_left = $("#mail-icon").offset().left;
@@ -35,4 +36,6 @@ $(document).ready(function() {
 		$(".header-nav").toggleClass("mobile-menu-vis");
 	});
 });
+
+
 		

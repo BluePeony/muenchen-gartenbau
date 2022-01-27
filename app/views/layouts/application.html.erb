@@ -20,5 +20,29 @@
     <%= render 'layouts/header' %>
     <%= yield %>
     <%= render 'layouts/footer' %>
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+      window.cookieconsent.initialise({
+        "palette": {
+          "popup": {
+            "background": "#efefef",
+            "text": "#8B6969"
+          },
+          "button": {
+            "background": "#a5cb38",
+            "text": "#ffffff",
+            "font-family": "Roboto"
+          }
+        },
+        "theme": "classic",
+        "position": "bottom-right",
+        "content": {
+          "message": "Diese Website verwendet Cookies, um sie möglichst benutzerfreundlich zu gestalten. Wenn Sie auf der Seite weitersurfen, stimmen Sie der Verwendung dieser Cookies zu.",
+          "dismiss": "OK",
+          "link": "Weitere Informationen",
+          "href": "datenschutz.html"
+        }
+      });
+    </script>
   </body>
 </html>

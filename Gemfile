@@ -35,6 +35,7 @@ gem 'active_link_to'
 gem 'font_awesome5_rails'
 #gem 'will_paginate',  '3.3.0'
 gem 'secure_headers'
+gem 'active_link_to'
 
 group :development, :test do
   # Use sqlite3 as the database for Active Record
