@@ -12,16 +12,16 @@
 	end
 %>
 <main class="referenzen-main">
-	<p id="referenzen-close"><%= link_to (fa_icon "window-close"), referenzen_path, class:'referenzen-icons' %></p>
+	<p id="referenzen-close"><%= link_to (fa_icon "times-circle"), referenzen_path, class:'referenzen-icons' %></p>
 	<div class="referenzen-overlay">
 		<div class="referenzen-arrow" id="referenzen-left-arrow">
-			<%= link_to (fa_icon "arrow-alt-circle-left"), "/referenzen/#{left_page}", class:'referenzen-arrow-link' %>
+			<%= link_to (fa_icon "arrow-circle-left"), "/referenzen/#{left_page}", class:'referenzen-arrow-link' %>
 		</div>
 		<div class="referenzen-image">
 			<%= image_tag("ref_#{page}.jpg", id:"ref_image") %>
 		</div>
 		<div class="referenzen-arrow" id="referenzen-right-arrow">
-			<%= link_to (fa_icon "arrow-alt-circle-right"), "/referenzen/#{right_page}", class:'referenzen-arrow-link' %>
+			<%= link_to (fa_icon "arrow-circle-right"), "/referenzen/#{right_page}", class:'referenzen-arrow-link' %>
 
 		</div>
 	</div>
