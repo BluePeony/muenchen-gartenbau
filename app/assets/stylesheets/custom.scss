@@ -705,7 +705,7 @@ a:hover{
 	}
 
 	.referenzen-image img {
-		width: 70vw;
+		//width: 70vw;
 	}
 
 	.referenzen-arrow {
@@ -735,7 +735,7 @@ a:hover{
 		margin-top: 15px;
 		width: 80vw;
 		border: 20px solid transparent;
-		border-image: url("../images/partner_bewaesserung.jpg") 50 stretch;
+		border-image: image-url("partner_bewaesserung.jpg") 50 stretch;
 
 	}
 
@@ -905,7 +905,7 @@ a:hover{
 		width: auto;
 	}
 	.referenzen-image img {
-		width: 70vw;
+		//width: 70vw;
 	}
 
 	.referenzen-arrow {
@@ -934,7 +934,7 @@ a:hover{
 		margin-top: 15px;
 		width: 80vw;
 		border: 25px solid transparent;
-		border-image: url("../images/partner_bewaesserung.jpg") 25 stretch;
+		border-image: image-url("partner_bewaesserung.jpg") 25 stretch;
 
 	}
 
@@ -961,7 +961,7 @@ a:hover{
 
 
 /*Tablet Hochformat*/
-@media (min-width: 601px) and (max-width: 835px) and (orientation: portrait){
+@media (min-width: 601px) and (max-width: 1024px) and (orientation: portrait){
 	body {
 		width: 90%;
 		margin: auto;
@@ -1040,6 +1040,10 @@ a:hover{
 		column-count: 2;
 	}
 
+	.referenzen-image {
+		width: 83%;
+	}
+
 	/*Partner*/
 
 	#partner {
@@ -1048,7 +1052,7 @@ a:hover{
 
 	#partner-text {
 		width: 60%;
-		top: 16%;
+		top: 23.5%;
 	}
 
 	#partner-text p {
@@ -1141,33 +1145,56 @@ a:hover{
 
 	/*Leistungen*/
 	.leistungen-wrapper {
-		column-count: 2;
+		column-count: 3;
+	}
+
+	.leistungen-headline {
+		font-size: 14px;
+	}
+
+	.leistungen-overlay-text {
+		font-size: 14px;
 	}
 
 	/*Referenzen*/
 
 
 	.referenzen-image {
-		width: auto;
+		width: 70%;
 	}
 
 	.referenzen-image img {
-		width: 65vw;
+		//width: 65vw;
 	}
 
 	#referenzen-text {
-		margin-top: 100px;
+		margin-top: 110px;
 	}
 
 	/*Partner*/
+	#partner-image-div {
+		display: none;
+	}
+
 	#partner-text {
-		top: 23%;
-		width: 50%;
+		position: static;
+		font-size: 15px;
+		line-height: 1.8;
+		margin-left: 0px;
+		margin-top: 15px;
+		width: 80vw;
+		border: 25px solid transparent;
+		border-image: image-url("partner_bewaesserung.jpg") 25 stretch;
+		border-radius: 5px;
+
 	}
 
 	#partner-text p {
-		padding: 5px 20px;
+		padding: 0px 25px;
+		text-align: justify;
+		border-radius: 10px;
 	}
+
 
 	/*Kontakt*/
 	#kontakt-daten {
